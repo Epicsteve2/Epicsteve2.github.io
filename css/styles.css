@@ -1,0 +1,91 @@
+h1 {
+  padding-top: 15px;
+}
+
+#myPicture {
+  padding: 35px;
+}
+
+#namecardcontainer {
+  background-image: url(../background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; /* make this fixed after a certain point*/
+
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#namecard {
+  border-radius: 25px;
+}
+
+#fullname {
+  font-size: 50px;
+}
+
+#namecardtext {
+  font-size: 25px;
+}
+
+#osu {
+  display: none;
+}
+
+h5 {
+  padding-top: 15px;
+}
+
+button {
+  outline: none;
+}
+
+.tech {
+  font-size: normal;
+  background-color:powderblue;
+  width: min-content;
+  text-align: center;
+  padding: 7px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+footer p a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.projectlink {
+  text-decoration: none;
+  font-size: 50px;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+}
