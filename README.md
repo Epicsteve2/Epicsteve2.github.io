@@ -1,2 +1,4 @@
 # Epicsteve2.github.io
-Learning to make websites!
+Personal website made with HTML, CSS, and JavaScript, using Bootstrap 5 
+
+Currently work in progress!
