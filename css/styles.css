@@ -120,15 +120,17 @@ footer p a {
   float: right;
 }
 
-#aquaicebutton {
-  margin-bottom: 0px;
+.experiencebutton {
+  margin-top: 20px;
+  margin-bottom:0px !important;
 }
 
+.experiencebody {
+  padding: 26px;
+  padding-top: 20px;
+}
 
 /********** Large devices only **********/
-@media (min-width: 1400px) {
-}
-
 @media (min-width: 1200px) and (max-width: 1399px) {
   #namecardcontainer {
     padding-left: 5%;
@@ -216,9 +218,11 @@ footer p a {
     margin-left: 10px;
     margin-right: 10px;
   }
+
   .card-body .btn {
     margin-bottom: 0px;
   }
+
   h5 {
     padding-top: 0px;
   }
@@ -227,18 +231,15 @@ footer p a {
     margin: 10px;
   }
 
-  /*h5 card-title {
-    margin-bottom: 0px !important;
-  }*/
+  .experiencebody {
+    margin: 0px;
+  }
 
   .projects-title {
     margin-bottom: 0px;
   }
 
   .tech {
-    line-height: 40px;
-  }
-
-  .tech2 {
+    line-height: 38px;
   }
 }
