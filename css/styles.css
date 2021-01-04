@@ -1,5 +1,5 @@
 h1 {
-  padding-top: 15px;
+  padding-top: 30px;
 }
 
 #myPicture {
@@ -19,16 +19,27 @@ h1 {
   padding-right: 10%;
 }
 
+.btn-primary:focus, .btn-primary:active { /* remove button outline*/
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+.card-body .btn {
+  margin-bottom: 10px;
+}
+
 #namecard {
   border-radius: 25px;
 }
 
 #fullname {
+  padding-top:0px;
   font-size: 50px;
 }
 
 #namecardtext {
   font-size: 25px;
+  margin-bottom: 15px;
 }
 
 #osu {
@@ -63,11 +74,53 @@ footer {
 footer p a {
   font-size: 20px;
   text-decoration: none;
+  margin-right: 7px;
+  margin-left: 7px;
 }
 
 .projectlink {
   text-decoration: none;
   font-size: 50px;
+}
+
+.experiencepicture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+.otherheaders {
+  border-bottom: 3px;
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.experiencetitle {
+  padding-top: 0px;
+}
+.social-media-icon {
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.centerdiv {
+  /*height:50px;*/
+  display: flex;
+  align-items: center;
+}
+
+.right-align{
+  float: right;
+}
+
+#aquaicebutton {
+  margin-bottom: 0px;
 }
 
 
@@ -76,16 +129,86 @@ footer p a {
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
+  #namecardcontainer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #myPicture {
+    padding: 25px;
+  }
+
+  #fullname {
+    padding-top:0px;
+    font-size: 40px;
+  }
+  
+  #namecardtext {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+  #namecardcontainer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #myPicture {
+    padding: 25px;
+  }
+
+  #fullname {
+    padding-top:0px;
+    font-size: 40px;
+  }
+  
+  #namecardtext {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  #namecardcontainer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #myPicture {
+    padding: 18px;
+  }
+
+  #fullname {
+    padding-top:0px;
+    font-size: 30px;
+  }
+  
+  #namecardtext {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+  #namecardcontainer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #myPicture {
+    padding: 50px;
+    padding-bottom: 0px;
+  }
+
+  #fullname {
+    padding-top:0px;
+    font-size: 30px;
+  }
+  
+  #namecardtext {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
 }

@@ -1,6 +1,6 @@
-function openText() {
-    var text = document.getElementById("osu")
-    var button = document.getElementById("osubutton")
+function openText(text, button) {
+    var text = document.getElementById(text);
+    var button = document.getElementById(button);
 
     if (text.style.display === "none") {
         text.style.display = "inline";

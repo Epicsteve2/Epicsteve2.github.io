@@ -15,10 +15,10 @@
             <div class="container-fluid-mdb" id="namecardcontainer">
                 <div class="card" id="namecard">
                     <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 centerdiv">
                         <img id="myPicture" class="rounded-circle img-fluid" src="src/profile.jpg" alt="Stephen Guo">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 centerdiv">
                         <div class="card-body">
                             <h1 id="fullname" class="card-title">Stephen Guo</h5>
                             <p id="namecardtext" class="card-text">UTSC 2019 - 2023 <small class="text-muted">(expected)</small> 
@@ -35,43 +35,81 @@
         </div>
 
         <div id="maincontent" class="container">
-            <h1>Projects</h1>
+            <h1 class="otherheaders">Projects</h1>
             <div class="card my-3 ">
             <div class="row">
-                <div class="col-md-3">
-                    <img class="rounded img-fluid project-picture" src="src/osu.jpeg" alt="Stephen Guo">
+                <div class="col-md-4 centerdiv">
+                    <a href="https://github.com/Epicsteve2/Stephen-s-Bootleg-Osu" target="_blank" class="projectlink"><img class="img-fluid project-picture" src="src/osu.jpeg" alt="osu! in Java"></a>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-8">
                     <div class="card-body">
                     <h5 class="card-title">osu! In Java</h5>
                     <span class="card-text tech">Java</span>
                     <span class="card-text tech">GUI</span> <br><br>
-                    <span id="osu" class="card-text"> Developed a mock version of the video game <i>osu!</i>, a rhythm game 
-                        where you click circles to the beat of the music. <br><a class="projectlink" href="https://github.com/Epicsteve2/Stephen-s-Bootleg-Osu" target="_blank"><i class="fa fa-github"></i></a> <br></span> 
-                    <button type="button" id="osubutton" onclick="openText()" class="btn btn-primary">See more</button>
-
-                    
+                    <span id="osu" class="card-text" style="display: none;"> Developed a mock version of the video game <i>osu!</i>, a rhythm game 
+                        where you click circles to the beat of the music. <br><a class="projectlink" href="https://github.com/Epicsteve2/Stephen-s-Bootleg-Osu" target="_blank"><i class="fa fa-github"></i></a> <br>
+                    </span>
+                    <button type="button" id="osubutton" onclick="openText('osu', 'osubutton')" class="btn btn-primary">See more</button>
                     </div>
                 </div>
             </div>
             </div>
+            
+
             <div class="card my-3 ">
                 <div class="row">
-                    <div class="col-md-3">
-                        <img  class="rounded img-fluid project-picture" src="src/mockunixshell.jpeg" alt="Stephen Guo">
+                    <div class="col-md-4 centerdiv">
+                        <a href="https://github.com/Epicsteve2/Epicsteve2.github.io" target="_blank" class="projectlink"><img  class="img-fluid project-picture" src="src/personalwebsite.jpg" alt="Mock Unix Shell"></a>
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Personal Website</h5>
+                            <span class="card-text tech">HTML</span> 
+                            <span class="card-text tech">CSS</span> 
+                            <span class="card-text tech">JavaScript</span> 
+                            <span class="card-text tech">Bootstrap</span><br><br>
+                            <span id="personalwebsitetext" class="card-text" style="display: none;"> Created a personal website using Bootstrap 5 <br><a class="projectlink" href="https://github.com/Epicsteve2/Epicsteve2.github.io" target="_blank"><i class="fa fa-github"></i></a> <br>
+                            </span>
+                            <button type="button" id="personalwebsitebutton" onclick="openText('personalwebsitetext', 'personalwebsitebutton')" class="btn btn-primary">See more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card my-3 ">
+                <div class="row">
+                    <div class="col-md-4 centerdiv">
+                        <a href="https://github.com/Epicsteve2/MockUnixShell" target="_blank" class="projectlink"><img  class="img-fluid project-picture" src="src/mockunixshell.jpeg" alt="Mock Unix Shell"></a>
+                    </div>
+                    <div class="col-md-8">
                         <div class="card-body">
                             <h5 class="card-title">Mock Unix Shell</h5>
                             <span class="card-text tech">Java</span><br><br>
-                            <!--button type="button" class="btn btn-outline-primary btn-sm disabled">Java</button-->
-                            <!--p class="card-text tech">Java</p-->
-                            <a href="#" class="btn  btn-primary" >See more</a>
-                            </div>
+                            <span id="mockshell" class="card-text" style="display: none;"> Developed a mock unix shell with a team of four adhering to the Agile Scrum Methodology <br><a class="projectlink" href="https://github.com/Epicsteve2/MockUnixShell" target="_blank"><i class="fa fa-github"></i></a> <br>
+                            </span>
+                            <button type="button" id="mockshellbutton" onclick="openText('mockshell', 'mockshellbutton')" class="btn btn-primary">See more</button>
+                        </div>
                     </div>
                 </div>
+            </div>
+
+            <h1 class="otherheaders">Experience</h1>
+            <div class="col-lg-6">
+            <div class="card my-3">
+                <a href="https://www.aquaice.ca/" target="_blank"><img class="card-img-top experiencepicture" src="src/aquaice.jpeg" alt="Aqua Ice"></a>
+                <div class="card-body ">
+                    <h5 class="card-title experiencetitle">Aqua Ice Inc.<span class="right-align">Toronto ON</span></h5>
+                    <span id="aquaicetext" class="card-text" style="display: none;">
+                        <p class="text-muted">Laborer - Packager <span class="right-align">Summer 2019</span></p>
+                        <p class="card-text">I worked at a family-owned business where I worked as a packager and delivery helper</p>
+                        <a href="https://www.facebook.com/AquaIceTO" target="_blank"><img src="src/facebook.png" alt="facebook" class="social-media-icon"></a>
+                        <a href="https://twitter.com/AquaiceTO" target="_blank"><img src="src/twitter.png" alt="twitter" class="social-media-icon"></a>
+                        <a href="https://instagram.com/aquaiceto" target="_blank"><img src="src/instagram.png" alt="facebook" class="social-media-icon"></a><br><br>
+                    </span> 
+                    <button type="button" id="aquaicebutton" onclick="openText('aquaicetext', 'aquaicebutton')" class="btn btn-primary">See more</button>
                 </div>
-            <h1>Experience</h1>
+            </div>
+            </div>
         </div>
 
         <footer>
@@ -80,7 +118,7 @@
                 <p class="mb-1"><a href="https://github.com/Epicsteve2" target="_blank"><i class="fa fa-github"></i> Github</a> 
                   <a href="https://www.linkedin.com/in/stephen-guo-399959192/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin </a>
                   <a href="mailto:steve.guo@mail.utoronto.ca"><i class="fa fa-envelope" aria-hidden="true"></i> Email </a> 
-                  <a href="https://drive.google.com/drive/my-drive" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Resume</a></p>
+                  <a href="https://github.com/Epicsteve2/LaTeX-Files/blob/main/pdf/B24%20HW4.pdf" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Resume</a></p>
             </div>
             
         </footer>
