@@ -76,6 +76,7 @@ footer p a {
   text-decoration: none;
   margin-right: 7px;
   margin-left: 7px;
+  white-space: nowrap;
 }
 
 .projectlink {
@@ -205,10 +206,39 @@ footer p a {
   #fullname {
     padding-top:0px;
     font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
   
   #namecardtext {
     font-size: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .card-body .btn {
+    margin-bottom: 0px;
+  }
+  h5 {
+    padding-top: 0px;
+  }
+
+  .card-body {
+    margin: 10px;
+  }
+
+  /*h5 card-title {
+    margin-bottom: 0px !important;
+  }*/
+
+  .projects-title {
+    margin-bottom: 0px;
+  }
+
+  .tech {
+    line-height: 40px;
+  }
+
+  .tech2 {
   }
 }
