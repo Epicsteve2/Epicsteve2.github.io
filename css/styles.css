@@ -19,9 +19,11 @@ h1 {
   padding-right: 10%;
 }
 
-.btn-primary:focus, .btn-primary:active { /* remove button outline*/
-    box-shadow:none !important;
-    outline:0px !important;
+.btn-primary:focus,
+.btn-primary:active {
+  /* remove button outline*/
+  box-shadow: none !important;
+  outline: 0px !important;
 }
 
 .card-body .btn {
@@ -33,7 +35,7 @@ h1 {
 }
 
 #fullname {
-  padding-top:0px;
+  padding-top: 0px;
   font-size: 50px;
 }
 
@@ -56,7 +58,7 @@ button {
 
 .tech {
   font-size: normal;
-  background-color:powderblue;
+  background-color: powderblue;
   width: min-content;
   text-align: center;
   padding: 7px;
@@ -68,7 +70,7 @@ footer {
   padding-top: 25px;
   padding-bottom: 25px;
   text-align: center;
-  background-color: aquamarine;
+  background-color: #f4d6b0;
 }
 
 footer p a {
@@ -80,6 +82,7 @@ footer p a {
 }
 
 .projectlink {
+  padding-right: 10px;
   text-decoration: none;
   font-size: 50px;
 }
@@ -116,13 +119,13 @@ footer p a {
   align-items: center;
 }
 
-.right-align{
+.right-align {
   float: right;
 }
 
 .experiencebutton {
   margin-top: 20px;
-  margin-bottom:0px !important;
+  margin-bottom: 0px !important;
 }
 
 .experiencebody {
@@ -142,10 +145,10 @@ footer p a {
   }
 
   #fullname {
-    padding-top:0px;
+    padding-top: 0px;
     font-size: 40px;
   }
-  
+
   #namecardtext {
     font-size: 20px;
     margin-bottom: 15px;
@@ -163,10 +166,10 @@ footer p a {
   }
 
   #fullname {
-    padding-top:0px;
+    padding-top: 0px;
     font-size: 40px;
   }
-  
+
   #namecardtext {
     font-size: 20px;
     margin-bottom: 15px;
@@ -184,10 +187,10 @@ footer p a {
   }
 
   #fullname {
-    padding-top:0px;
+    padding-top: 0px;
     font-size: 30px;
   }
-  
+
   #namecardtext {
     font-size: 16px;
     margin-bottom: 15px;
@@ -206,12 +209,12 @@ footer p a {
   }
 
   #fullname {
-    padding-top:0px;
+    padding-top: 0px;
     font-size: 30px;
     margin-right: 10px;
     margin-left: 10px;
   }
-  
+
   #namecardtext {
     font-size: 16px;
     margin-bottom: 10px;
