@@ -2,10 +2,6 @@ h1 {
   padding-top: 30px;
 }
 
-#myPicture {
-  padding: 35px;
-}
-
 #namecardcontainer {
   background-image: url(../src/background.jpg);
   background-repeat: no-repeat;
@@ -32,6 +28,7 @@ h1 {
 
 #namecard {
   border-radius: 25px;
+  background-color: transparent;
 }
 
 #fullname {
@@ -140,10 +137,6 @@ footer p a {
     padding-right: 5%;
   }
 
-  #myPicture {
-    padding: 25px;
-  }
-
   #fullname {
     padding-top: 0px;
     font-size: 40px;
@@ -160,9 +153,6 @@ footer p a {
   #namecardcontainer {
     padding-left: 5%;
     padding-right: 5%;
-  }
-  #myPicture {
-    padding: 25px;
   }
 
   #fullname {
@@ -182,9 +172,6 @@ footer p a {
     padding-left: 5%;
     padding-right: 5%;
   }
-  #myPicture {
-    padding: 18px;
-  }
 
   #fullname {
     padding-top: 0px;
@@ -202,10 +189,6 @@ footer p a {
   #namecardcontainer {
     padding-left: 5%;
     padding-right: 5%;
-  }
-  #myPicture {
-    padding: 50px;
-    padding-bottom: 0px;
   }
 
   #fullname {
