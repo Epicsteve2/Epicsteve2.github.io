@@ -15,15 +15,46 @@
     <p>3.65 cGPA</p>
   </div>
 </div> -->
-
-<div class="bg-transparent p-5 max-w-3xl mx-auto rounded-xl flex flex-col sm:flex-row">
-  <figure class="object-contain">
-    <img
-      class="max-sm:rounded-t-xl sm:rounded-l-xl"
-      src="/src/pictures/profile-picture.png"
-      alt="Stephen Guo"
-    />
-  </figure>
+<div
+  class="bg-transparent p-5 max-w-3xl mx-auto rounded-xl flex flex-col sm:flex-row"
+>
+  <!-- <figure class="object-contain bg-black rounded-full"> -->
+  <svg viewBox="0 0 50 50" width="100%" class="max-sm:rounded-t-xl sm:rounded-l-xl">
+    <defs>
+      <pattern id="img1" width="30" height="30">
+        <image
+          href="/src/pictures/profile-pic-tree-purple-hat-cropped-square.png"
+          x="0"
+          y="0"
+          width="30"
+          height="30"
+        />
+      </pattern>
+      <mask id="mask" x="0" y="0" width="50" height="50">
+        <rect x="0" y="0" width="50" height="50" fill="#fff"></rect>
+        <circle cx="25" cy="25" r="15"></circle>
+      </mask>
+    </defs>
+    <circle cx="25" cy="25" r="15" fill="#000" fill-opacity="0.6"></circle>
+    <circle
+      cx="25"
+      cy="25"
+      r="15"
+      fill="url(#img1)"
+      style="-webkit-filter: drop-shadow(0.5px 0.5px 0 white)
+        drop-shadow(-0.5px 0.5px 0 white)
+        drop-shadow(0.5px -0.5px 0 white)
+        drop-shadow(-0.5px -0.5px 0 white);"
+    ></circle>
+    <!-- fill="url(#img1)" -->
+    <rect x="0" y="0" width="50" height="50" mask="url(#mask)" fill="#fff"></rect>
+  </svg>
+  <!-- <img
+    class="max-sm:rounded-t-xl sm:rounded-l-xl w-48"
+    src="/src/pictures/profile-pic-tree-purple-hat-cropped-square.png"
+    alt="Stephen Guo"
+  /> -->
+  <!-- </figure> -->
   <div class="bg-white max-sm:rounded-b-xl sm:rounded-r-xl">
     <h1 class="text-2xl text-black">Stephen Guo</h1>
     <p class="text-black">
