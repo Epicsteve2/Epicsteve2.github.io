@@ -1,32 +1,18 @@
-<!-- <div class="bg-transparent mt-5 border-solid border-2 border-white shadow-xl max-w-3xl mx-auto rounded-xl flex md:flex-row flex-col items-center justify-start">
-  <figure class="">
-    <img
-      class="w-48 object-cover md:h-auto md:w-48 rounded-lg"
-      src="/src/pictures/profile-picture.png"
-      alt="Stephen Guo"
-    />
-  </figure>
-  <div class="flex flex-col justify-between p-4 leading-normal bg-base-100">
-    <h1 class="text-xl">Stephen Guo</h1>
-    <p>
-      UTSC 2019 - 2024 <small class="text-gray-100">(expected)</small>
-    </p>
-    <p>Computer Science - Software Engineering stream</p>
-    <p>3.65 cGPA</p>
-  </div>
-</div> -->
 ---
-const viewboxWidthAndHeight = 50;
-const circleWidth = 22;
+const viewboxWidth = 50;
+const circleWidth = 20;
 const shadowLength = 0.5;
 ---
+
+<!-- to do responsiveness, target mobile using no sizes as default. then for bigger ones, do `md` or `lg` -->
 <div
-  class="bg-transparent p-5 max-w-3xl mx-auto rounded-xl flex flex-col sm:flex-row"
+  class="bg-transparent py-12 max-w-5xl  mx-auto rounded-xl flex flex-col sm:flex-row"
 >
+  <!-- border-solid border-black sm:max-w-96-->
   <svg
-    viewBox={`0 0 ${viewboxWidthAndHeight} ${viewboxWidthAndHeight}`}
-    width="100%"
-    class="max-sm:rounded-t-xl sm:rounded-l-xl"
+    viewBox={`0 0 ${viewboxWidth} ${viewboxWidth}`}
+
+    class="max-sm:rounded-t-xl sm:rounded-l-xl sm:max-w-72 lg:max-w-96"
   >
     <defs>
       <pattern id="profile-photo" width="1" height="1">
@@ -38,15 +24,22 @@ const shadowLength = 0.5;
           height={circleWidth * 2}
         />
       </pattern>
-      <mask id="mask" x="0" y="0" width={viewboxWidthAndHeight} height={viewboxWidthAndHeight}>
-        <rect x="0" y="0" width={viewboxWidthAndHeight} height={viewboxWidthAndHeight} fill="#fff"></rect>
-        <circle cx={viewboxWidthAndHeight/2} cy={viewboxWidthAndHeight/2} r={circleWidth}></circle>
+      <mask id="mask" x="0" y="0" width={viewboxWidth} height={viewboxWidth}>
+        <rect x="0" y="0" width={viewboxWidth} height={viewboxWidth} fill="#fff"
+        ></rect>
+        <circle cx={viewboxWidth / 2} cy={viewboxWidth / 2} r={circleWidth}
+        ></circle>
       </mask>
     </defs>
-    <circle cx={viewboxWidthAndHeight/2} cy={viewboxWidthAndHeight/2} r={circleWidth} fill="#000" fill-opacity="0.6"></circle>
     <circle
-      cx={viewboxWidthAndHeight/2}
-      cy={viewboxWidthAndHeight/2}
+      cx={viewboxWidth / 2}
+      cy={viewboxWidth / 2}
+      r={circleWidth}
+      fill="#000"
+      fill-opacity="0.6"></circle>
+    <circle
+      cx={viewboxWidth / 2}
+      cy={viewboxWidth / 2}
       r={circleWidth}
       fill="url(#profile-photo)"
       style=`-webkit-filter: drop-shadow(${shadowLength}px ${shadowLength}px 0 white)
@@ -58,15 +51,23 @@ const shadowLength = 0.5;
         drop-shadow(${shadowLength}px -${shadowLength}px 0 white)
         drop-shadow(-${shadowLength}px -${shadowLength}px 0 white);`
     ></circle>
-    <rect x="0" y="0" width={viewboxWidthAndHeight} height={viewboxWidthAndHeight} mask="url(#mask)" fill="#fff"
-    ></rect>
+    <rect
+      x="0"
+      y="0"
+      width={viewboxWidth}
+      height={viewboxWidth}
+      mask="url(#mask)"
+      fill="#fff"></rect>
   </svg>
-  <div class="bg-white max-sm:rounded-b-xl sm:rounded-r-xl">
-    <h1 class="text-2xl text-black">Stephen Guo</h1>
-    <p class="text-black">
+  <!-- border is to remove a black line sometimes -->
+  <div
+    class="bg-white max-sm:rounded-b-xl sm:rounded-r-xl border-solid border-white border-2 flex flex-col justify-center max-sm:px-8 pr-8 pb-8 grow"
+  >
+    <h1 class="text-black text-3xl md:text-4xl lg:text-5xl pb-2">Stephen Guo</h1>
+    <p class="text-black text-base md:text-lg lg:text-xl">
       UTSC 2019 - 2024 <small class="text-gray-800">(expected)</small>
     </p>
-    <p class="text-black">Computer Science - Software Engineering stream</p>
-    <p class="text-black">3.55 cGPA</p>
+    <p class="text-black text-base md:text-lg lg:text-xl">Computer Science - Software Engineering stream</p>
+    <p class="text-black text-base md:text-lg lg:text-xl">3.55 cGPA</p>
   </div>
 </div>
