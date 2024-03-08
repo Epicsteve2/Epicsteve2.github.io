@@ -15,52 +15,58 @@
     <p>3.65 cGPA</p>
   </div>
 </div> -->
+---
+const viewboxWidthAndHeight = 50;
+const circleWidth = 22;
+const shadowLength = 0.5;
+---
 <div
   class="bg-transparent p-5 max-w-3xl mx-auto rounded-xl flex flex-col sm:flex-row"
 >
-  <!-- <figure class="object-contain bg-black rounded-full"> -->
-  <svg viewBox="0 0 50 50" width="100%" class="max-sm:rounded-t-xl sm:rounded-l-xl">
+  <svg
+    viewBox={`0 0 ${viewboxWidthAndHeight} ${viewboxWidthAndHeight}`}
+    width="100%"
+    class="max-sm:rounded-t-xl sm:rounded-l-xl"
+  >
     <defs>
-      <pattern id="img1" width="30" height="30">
+      <pattern id="profile-photo" width="1" height="1">
         <image
           href="/src/pictures/profile-pic-tree-purple-hat-cropped-square.png"
           x="0"
           y="0"
-          width="30"
-          height="30"
+          width={circleWidth * 2}
+          height={circleWidth * 2}
         />
       </pattern>
-      <mask id="mask" x="0" y="0" width="50" height="50">
-        <rect x="0" y="0" width="50" height="50" fill="#fff"></rect>
-        <circle cx="25" cy="25" r="15"></circle>
+      <mask id="mask" x="0" y="0" width={viewboxWidthAndHeight} height={viewboxWidthAndHeight}>
+        <rect x="0" y="0" width={viewboxWidthAndHeight} height={viewboxWidthAndHeight} fill="#fff"></rect>
+        <circle cx={viewboxWidthAndHeight/2} cy={viewboxWidthAndHeight/2} r={circleWidth}></circle>
       </mask>
     </defs>
-    <circle cx="25" cy="25" r="15" fill="#000" fill-opacity="0.6"></circle>
+    <circle cx={viewboxWidthAndHeight/2} cy={viewboxWidthAndHeight/2} r={circleWidth} fill="#000" fill-opacity="0.6"></circle>
     <circle
-      cx="25"
-      cy="25"
-      r="15"
-      fill="url(#img1)"
-      style="-webkit-filter: drop-shadow(0.5px 0.5px 0 white)
-        drop-shadow(-0.5px 0.5px 0 white)
-        drop-shadow(0.5px -0.5px 0 white)
-        drop-shadow(-0.5px -0.5px 0 white);"
+      cx={viewboxWidthAndHeight/2}
+      cy={viewboxWidthAndHeight/2}
+      r={circleWidth}
+      fill="url(#profile-photo)"
+      style=`-webkit-filter: drop-shadow(${shadowLength}px ${shadowLength}px 0 white)
+        drop-shadow(-${shadowLength}px ${shadowLength}px 0 white)
+        drop-shadow(${shadowLength}px -${shadowLength}px 0 white)
+        drop-shadow(-${shadowLength}px -${shadowLength}px 0 white);
+        filter: drop-shadow(${shadowLength}px ${shadowLength}px 0 white)
+        drop-shadow(-${shadowLength}px ${shadowLength}px 0 white)
+        drop-shadow(${shadowLength}px -${shadowLength}px 0 white)
+        drop-shadow(-${shadowLength}px -${shadowLength}px 0 white);`
     ></circle>
-    <!-- fill="url(#img1)" -->
-    <rect x="0" y="0" width="50" height="50" mask="url(#mask)" fill="#fff"></rect>
+    <rect x="0" y="0" width={viewboxWidthAndHeight} height={viewboxWidthAndHeight} mask="url(#mask)" fill="#fff"
+    ></rect>
   </svg>
-  <!-- <img
-    class="max-sm:rounded-t-xl sm:rounded-l-xl w-48"
-    src="/src/pictures/profile-pic-tree-purple-hat-cropped-square.png"
-    alt="Stephen Guo"
-  /> -->
-  <!-- </figure> -->
   <div class="bg-white max-sm:rounded-b-xl sm:rounded-r-xl">
     <h1 class="text-2xl text-black">Stephen Guo</h1>
     <p class="text-black">
       UTSC 2019 - 2024 <small class="text-gray-800">(expected)</small>
     </p>
     <p class="text-black">Computer Science - Software Engineering stream</p>
-    <p class="text-black">3.65 cGPA</p>
+    <p class="text-black">3.55 cGPA</p>
   </div>
 </div>
