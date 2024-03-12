@@ -1,24 +1,42 @@
-<footer class="flex flex-row bg-white justify-center py-6">
-  <h2 class="text-black text-xl">Contact me!</h2>
-  <!-- <div id="footer" class="container">
-    <h2>Contact me!</h2>
-    <p class="mb-1">
-      <a href="https://github.com/Epicsteve2" target="_blank"
-        ><i class="fa fa-github"></i>&nbsp;Github</a
-      >
-      <a
-        href="https://www.linkedin.com/in/stephen-guo-399959192/"
-        target="_blank"
-        ><i class="fa fa-linkedin-square" aria-hidden="true"
-        ></i>&nbsp;Linkedin</a
-      >
-      <a href="mailto:steve.guo@mail.utoronto.ca"
-        ><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;Email</a
-      >
-      <a
-        href="https://github.com/Epicsteve2/LaTeX-Files/raw/main/pdf/StephenGuo_Resume.pdf"
-        ><i class="fa fa-file-text" aria-hidden="true"></i>&nbsp;Resume</a
-      >
-    </p>
-  </div> -->
+---
+import { Icon } from "astro-icon/components";
+---
+
+<!-- bg-white  -->
+<footer class="flex flex-col items-center py-6 bg-[#feffee]">
+  <h2 class="text-black text-4xl pb-1">Contact me!</h2>
+  <div class="flex flex-row">
+    <a
+      class="text-lg flex items-center px-3 text-[#aa7c97] hover:text-[#633f5c]"
+      href="https://github.com/Epicsteve2"
+      target="_blank"
+    >
+      <Icon class="pr-1 w-fit" name="bi:github" />
+      GitHub
+    </a>
+    <a
+      class="text-lg flex items-center px-3 text-blue-600 hover:text-blue-800"
+      href="https://www.linkedin.com/in/stephen-guo-399959192/"
+      target="_blank"
+    >
+      <Icon class="pr-1 w-fit" name="bi:linkedin" />
+      LinkedIn
+    </a>
+    <a
+      class="text-lg flex items-center px-3 text-blue-600 hover:text-blue-800"
+      href="mailto:steve.guo@mail.utoronto.ca"
+      target="_blank"
+    >
+      <Icon class="pr-1 w-fit" name="bi:envelope-fill" />
+      Email
+    </a>
+    <a
+      class="text-lg flex items-center px-3 text-blue-600 hover:text-blue-800"
+      href="https://github.com/Epicsteve2/LaTeX-Files/raw/main/pdf/StephenGuo_Resume.pdf"
+      target="_blank"
+    >
+      <Icon class="pr-1 w-fit" name="bi:file-earmark-text-fill" />
+      Resume
+    </a>
+  </div>
 </footer>

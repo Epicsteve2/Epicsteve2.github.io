@@ -1,5 +1,9 @@
 # Astro Starter Kit: Basics
 
+find astro-icons using: `https://github.com/iconify/icon-sets/blob/HEAD/collections.md`
+find icons here `https://icon-sets.iconify.design/bi/`
+TODO: remove daisyui if not needed
+
 ```sh
 npm create astro@latest -- --template basics
 ```
