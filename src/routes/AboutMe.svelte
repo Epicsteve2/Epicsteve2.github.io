@@ -2,7 +2,7 @@
 	<div class="max-w-3xl mx-auto">
 		<h1 class="text-3xl">About Me</h1>
 		<p class="pb-4">
-			I am in my final year studying at the University of Toronto. I have a previous 1-year co-op at
+			I received a degree in Computer Science at the University of Toronto. I have a previous 1-year co-op at
 			BlueCat Networks as a software engineer.
 		</p>
 		<p class="">I'm currently learning about:</p>
@@ -11,7 +11,7 @@
 			<li>Neovim</li>
 			<li>Linux (I use Fedora and OpenSUSE right now, but I want to try NixOS at some point)</li>
 			<li>
-				Front end technologies such as Astro (Which this site is built in!), Vue.js, and Tailwind
+				Front end technologies such as SvelteKit (Which this site is built in!), Vue.js, and Tailwind
 				CSS
 			</li>
 		</ul>
