@@ -44,14 +44,6 @@ drop-shadow(-${shadowLength}px -${shadowLength}px 0 white)`;
 			style:-webkit-filter={profilePicCircleStyle}
 			style:-filter={profilePicCircleStyle}
 		></circle>
-		<!-- style="-webkit-filter: drop-shadow({shadowLength}px {shadowLength}px 0 white)
-        drop-shadow(-{shadowLength}px {shadowLength}px 0 white)
-        drop-shadow({shadowLength}px -{shadowLength}px 0 white)
-        drop-shadow(-{shadowLength}px -{shadowLength}px 0 white);
-        filter: drop-shadow({shadowLength}px {shadowLength}px 0 white)
-        drop-shadow(-{shadowLength}px {shadowLength}px 0 white)
-        drop-shadow({shadowLength}px -{shadowLength}px 0 white)
-        drop-shadow(-{shadowLength}px -{shadowLength}px 0 white);" -->
 		<rect x="0" y="0" width={viewboxWidth} height={viewboxWidth} mask="url(#mask)" fill="#fff"
 		></rect>
 	</svg>
@@ -66,19 +58,7 @@ drop-shadow(-${shadowLength}px -${shadowLength}px 0 white)`;
 		<p class="text-black text-base md:text-lg lg:text-xl">
 			Computer Science - Software Engineering stream
 		</p>
-		<p class="text-black text-base md:text-lg lg:text-xl">3.55 cGPA</p>
+		<p class="text-black text-base md:text-lg lg:text-xl">3.57 cGPA</p>
 	</div>
 </div>
 
-<!-- <style>
-#profile-picture-circle {
-  -webkit-filter: drop-shadow({shadowLength}px {shadowLength}px 0 white)
-        drop-shadow(-{shadowLength}px {shadowLength}px 0 white)
-        drop-shadow({shadowLength}px -{shadowLength}px 0 white)
-        drop-shadow(-{shadowLength}px -{shadowLength}px 0 white);
-        filter: drop-shadow({shadowLength}px {shadowLength}px 0 white)
-        drop-shadow(-{shadowLength}px {shadowLength}px 0 white)
-        drop-shadow({shadowLength}px -{shadowLength}px 0 white)
-        drop-shadow(-{shadowLength}px -{shadowLength}px 0 white);
-}
-</style> -->
