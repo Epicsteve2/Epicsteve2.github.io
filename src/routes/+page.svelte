@@ -7,7 +7,11 @@
 	import ExperienceCard from './ExperienceCard.svelte';
 
 	import bluecatLogo from '$lib/images/bluecat-networks-logo.png';
+	import rustRecipeGalleryLogo from '$lib/images/rust-recipe-gallery.jpg';
+	import shopLazyLogo from '$lib/images/shoplazy.jpg';
+
 	import GlobeLogo from 'virtual:icons/bi/globe-americas';
+	import GithubLogo from 'virtual:icons/bi/github';
 </script>
 
 <div class="flex flex-col h-screen">
@@ -21,46 +25,106 @@
 						<h1 class="text-4xl">Experience</h1>
 						<hr class="md:mb-5 mb-3 bg-black h-0.5" />
 					</div>
-					<ExperienceCard
-						companyName="BlueCat Networks"
-						tags={[
-							'Kubernetes',
-							'AWS',
-							'GitLab CI',
-							'Python',
-							'Java',
-							'Terraform',
-							'SQL',
-							'Docker',
-							'Helm',
-							'Jenkins'
-						]}
-						dateRange="May 2021 - April 2022"
-						location="Toronto, ON"
-						jobTitle="Software Engineer Co-op"
-						image={bluecatLogo}
-					>
-						<div class="flex flex-col justify-between grow">
-							<p>
-								I worked with a team of 7 software engineers in a Kanban DevOps environment. I first
-								started working on a monolithic Java codebase for the first 3 months, which was
-								deployed on a Jenkins pipeline. For the rest of my co-op, I started to work on a
-								microservice-oriented data platform with a Python codebase with Trino SQL and Apache
-								Airflow. It was deployed using GitLab CI/CD, Kurbernetes, Helm, Terraform,
-								Terragrunt, and AWS. This also includes writing helm charts for Kubernetes
-								horizontal and vertcial pod autoscalers, deploying Prometheus alertmanager, and
-								writing documentation on Confluence.
-							</p>
-							<a
-								class="text-lg flex items-center text-blue-600 hover:text-blue-800 mt-2"
-								href="https://bluecatnetworks.com/"
-								target="_blank"
-							>
-								<GlobeLogo class="pr-1" />
-								Link to website
-							</a>
-						</div>
-					</ExperienceCard>
+					<div class="mb-5">
+						<ExperienceCard
+							companyName="BlueCat Networks"
+							tags={[
+								'Kubernetes',
+								'AWS',
+								'GitLab CI',
+								'Python',
+								'Java',
+								'Terraform',
+								'SQL',
+								'Docker',
+								'Helm',
+								'Jenkins'
+							]}
+							dateRange="May 2021 - April 2022"
+							location="Toronto, ON"
+							jobTitle="Software Engineer Co-op"
+							image={bluecatLogo}
+						>
+							<div class="flex flex-col justify-between grow">
+								<p>
+									I worked with a team of 7 software engineers in a Kanban DevOps environment. I
+									first started working on a monolithic Java codebase for the first 3 months, which
+									was deployed using a Jenkins pipeline. For the rest of my co-op, I started to work
+									on a microservice-oriented data platform with a Python codebase with Trino SQL and
+									Apache Airflow, which was deployed on AWS, Kubernetes, and Terraform.
+									<!-- It was deployed using GitLab CI/CD, Kurbernetes, Helm, Terraform,
+									Terragrunt, and AWS. This also includes writing helm charts for Kubernetes
+									horizontal and vertcial pod autoscalers, deploying Prometheus alertmanager, and
+									writing documentation on Confluence. -->
+								</p>
+								<a
+									class="text-lg flex items-center text-blue-600 hover:text-blue-800 mt-2"
+									href="https://bluecatnetworks.com/"
+									target="_blank"
+								>
+									<GlobeLogo class="pr-1" />
+									Link to website
+								</a>
+							</div>
+						</ExperienceCard>
+					</div>
+					<div class="mx-auto max-w-screen-xl flex flex-col">
+						<h1 class="text-4xl">Projects</h1>
+						<hr class="md:mb-5 mb-3 bg-black h-0.5" />
+					</div>
+					<div class="mb-5">
+						<ExperienceCard
+							companyName="Rust Recipe Gallery"
+							tags={['Rust', 'PostgreSQL', 'Tailwind CSS']}
+							dateRange=""
+							location=""
+							jobTitle=""
+							image={rustRecipeGalleryLogo}
+						>
+							<div class="flex flex-col justify-between grow">
+								<p>
+									Created a full-stack recipe sharing platform fully in Rust, with Leptos and
+									Tailwind CSS as the frontend, and Auxm and Diesel as the backend.
+								</p>
+								<a
+									class="text-lg flex items-center text-blue-600 hover:text-blue-800 mt-2"
+									href="https://github.com/Epicsteve2/rust-recipe-gallery"
+									target="_blank"
+								>
+									<GithubLogo class="pr-1" />
+									Link to git repository
+								</a>
+							</div>
+						</ExperienceCard>
+						<ExperienceCard
+							companyName="ShopLazy"
+							tags={['Flutter', 'Dart', 'Firebase']}
+							dateRange=""
+							location=""
+							jobTitle=""
+							image={shopLazyLogo}
+						>
+							<div class="flex flex-col justify-between grow">
+								<p>
+									During the
+									<a
+										href="https://2021.hackthenorth.com/"
+										class="text-blue-600 hover:text-blue-800"
+										target="_blank">Hack the North 2021</a
+									> hackathon, I teamed up with a group of 4 to create a mobile grocery ordering and
+									delivery application using Flutter and Firebase.
+								</p>
+								<a
+									class="text-lg flex items-center text-blue-600 hover:text-blue-800 mt-2"
+									href="https://github.com/Epicsteve2/ShopLazy"
+									target="_blank"
+								>
+									<GithubLogo class="pr-1" />
+									Link to git repository
+								</a>
+							</div>
+						</ExperienceCard>
+					</div>
 				</div>
 			</div>
 		</main>

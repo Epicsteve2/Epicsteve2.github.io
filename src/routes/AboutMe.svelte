@@ -2,7 +2,7 @@
 	<div class="max-w-3xl mx-auto">
 		<h1 class="text-3xl">About Me</h1>
 		<p class="pb-4">
-			I received a degree in Computer Science at the University of Toronto. I have a previous 1-year co-op at
+			I received a degree in Computer Science at the University of Toronto, and I have a previous 1-year co-op at
 			BlueCat Networks as a software engineer.
 		</p>
 		<p class="">I'm currently learning about:</p>
