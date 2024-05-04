@@ -16,10 +16,10 @@
 			<Header />
 			<AboutMe />
 			<div class="bg-white flex flex-col justify-center w-full">
-				<div class="md:mx-16 max-md:mx-3 my-10">
+				<div class="md:mx-16 max-md:mx-3 md:my-10 max-md:my-3">
 					<div class="mx-auto max-w-screen-xl flex flex-col">
 						<h1 class="text-4xl">Experience</h1>
-						<hr class="mb-2 bg-black h-1" />
+						<hr class="md:mb-5 mb-3 bg-black h-0.5" />
 					</div>
 					<ExperienceCard
 						companyName="BlueCat Networks"
