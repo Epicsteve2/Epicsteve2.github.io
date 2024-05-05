@@ -3,5 +3,5 @@
 export const prerender = true;
 // maybe disable javascript?
 // disables javascript on production, but not dev because it breaks hot module reloading
-export const csr = import.meta.env.MODE === "development";
+export const csr = import.meta.env.MODE === 'development';
 // export const csr = false;

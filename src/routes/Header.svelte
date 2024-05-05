@@ -52,13 +52,10 @@ drop-shadow(-${shadowLength}px -${shadowLength}px 0 white)`;
 		class="bg-white max-sm:rounded-b-xl sm:rounded-r-3xl border-solid border-white border-2 flex flex-col justify-center max-sm:px-8 pr-8 pb-8 grow"
 	>
 		<h1 class="text-black text-3xl md:text-4xl lg:text-5xl pb-2">Stephen Guo</h1>
-		<p class="text-black text-base md:text-lg lg:text-xl">
-			University of Toronto 2019 - 2024
-		</p>
+		<p class="text-black text-base md:text-lg lg:text-xl">University of Toronto 2019 - 2024</p>
 		<p class="text-black text-base md:text-lg lg:text-xl">
 			Computer Science - Software Engineering stream
 		</p>
 		<p class="text-black text-base md:text-lg lg:text-xl">3.57 cGPA</p>
 	</div>
 </div>
-
