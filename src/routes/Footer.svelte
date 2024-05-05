@@ -6,14 +6,13 @@
 </script>
 
 <footer class="flex flex-col items-center py-6 bg-gray-600">
-	<h2 class="text-white text-4xl pb-2">Contact me!</h2>
-	<div class="flex flex-row">
+	<h2 class="text-white text-4xl pb-2 text-center">Contact me!</h2>
+	<div class="flex flex-row max-w-full flex-wrap justify-center mx-2">
 		<a
 			class="text-lg flex items-center px-3 text-white hover:text-blue-300"
 			href="https://github.com/Epicsteve2"
 			target="_blank"
 		>
-			<!-- no "w-fill" -->
 			<GithubLogo class="pr-1" />
 			GitHub
 		</a>

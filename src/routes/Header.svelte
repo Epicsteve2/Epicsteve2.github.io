@@ -55,6 +55,5 @@ drop-shadow(-${shadowLength}px -${shadowLength}px 0 white)`;
 		<p class="text-black text-base md:text-lg lg:text-xl">
 			Computer Science - Software Engineering stream
 		</p>
-		<p class="text-black text-base md:text-lg lg:text-xl">3.57 cGPA</p>
 	</div>
 </div>

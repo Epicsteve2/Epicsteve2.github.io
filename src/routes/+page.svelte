@@ -1,7 +1,6 @@
 <script lang="ts">
 	import '../tailwind.css';
 	import Header from './Header.svelte';
-	// import backgroundPic from '$lib/images/background.jpg';
 	import Footer from './Footer.svelte';
 	import AboutMe from './AboutMe.svelte';
 	import ExperienceCard from './ExperienceCard.svelte';
@@ -9,11 +8,15 @@
 	import bluecatLogo from '$lib/images/bluecat-networks-logo.png';
 	import rustRecipeGalleryLogo from '$lib/images/rust-recipe-gallery.jpg';
 	import shopLazyLogo from '$lib/images/shoplazy.jpg';
+	import alkitabLogo from '$lib/images/alkitab.png';
 
 	import GlobeLogo from 'virtual:icons/bi/globe-americas';
 	import GithubLogo from 'virtual:icons/bi/github';
 </script>
 
+<svelte:head>
+	<title>Stephen Guo</title>
+</svelte:head>
 <div class="flex flex-col h-screen">
 	<div class="mb-auto">
 		<main>
@@ -38,7 +41,8 @@
 								'SQL',
 								'Docker',
 								'Helm',
-								'Jenkins'
+								'Jenkins',
+								'Prometheus'
 							]}
 							dateRange="May 2021 - April 2022"
 							location="Toronto, ON"
@@ -50,8 +54,8 @@
 									I worked with a team of 7 software engineers in a Kanban DevOps environment. I
 									first started working on a monolithic Java codebase for the first 3 months, which
 									was deployed using a Jenkins pipeline. For the rest of my co-op, I started to work
-									on a microservice-oriented data platform with a Python codebase using Trino SQL and
-									Apache Airflow, which was deployed using AWS, Kubernetes, and Terraform.
+									on a microservice-oriented data platform with a Python codebase using Trino SQL
+									and Apache Airflow, which was deployed using AWS, Kubernetes, and Terraform.
 									<!-- It was deployed using GitLab CI/CD, Kurbernetes, Helm, Terraform,
 									Terragrunt, and AWS. This also includes writing helm charts for Kubernetes
 									horizontal and vertcial pod autoscalers, deploying Prometheus alertmanager, and
@@ -117,6 +121,41 @@
 								<a
 									class="text-lg flex items-center text-blue-600 hover:text-blue-800 mt-2"
 									href="https://github.com/Epicsteve2/ShopLazy"
+									target="_blank"
+								>
+									<GithubLogo class="pr-1" />
+									Link to git repository
+								</a>
+							</div>
+						</ExperienceCard>
+						<ExperienceCard
+							companyName="Alkitab"
+							tags={[
+								'Svelte',
+								'Bootstrap',
+								'TypeScript',
+								'MongoDB',
+								'Docker',
+								'Kubernetes',
+								'Helm',
+								'Pulumi',
+								'NGINX',
+								'Sockets'
+							]}
+							dateRange=""
+							location=""
+							jobTitle=""
+							image={alkitabLogo}
+						>
+							<div class="flex flex-col justify-between grow">
+								<p>
+									Created an e-book sharing platform in a team of two, deployed using Pulumi on
+									Kubernetes with the Linode cloud provider. The app uses sockets for real-time
+									highlighting of books between multiple users
+								</p>
+								<a
+									class="text-lg flex items-center text-blue-600 hover:text-blue-800 mt-2"
+									href="https://github.com/Epicsteve2/cscc09-alkitab"
 									target="_blank"
 								>
 									<GithubLogo class="pr-1" />
