@@ -14,7 +14,6 @@ drop-shadow(-${shadowLength}px -${shadowLength}px 0 white)`;
 <div
 	class="bg-transparent py-5 sm:py-12 max-w-5xl mx-auto rounded-xl flex flex-col sm:flex-row px-5"
 >
-	<!-- border-solid border-black sm:max-w-96-->
 	<svg
 		viewBox="0 0 {viewboxWidth} {viewboxWidth}"
 		class="max-sm:rounded-t-xl sm:rounded-l-3xl sm:max-w-72 lg:max-w-96"

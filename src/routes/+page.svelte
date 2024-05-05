@@ -50,8 +50,8 @@
 									I worked with a team of 7 software engineers in a Kanban DevOps environment. I
 									first started working on a monolithic Java codebase for the first 3 months, which
 									was deployed using a Jenkins pipeline. For the rest of my co-op, I started to work
-									on a microservice-oriented data platform with a Python codebase with Trino SQL and
-									Apache Airflow, which was deployed on AWS, Kubernetes, and Terraform.
+									on a microservice-oriented data platform with a Python codebase using Trino SQL and
+									Apache Airflow, which was deployed using AWS, Kubernetes, and Terraform.
 									<!-- It was deployed using GitLab CI/CD, Kurbernetes, Helm, Terraform,
 									Terragrunt, and AWS. This also includes writing helm charts for Kubernetes
 									horizontal and vertcial pod autoscalers, deploying Prometheus alertmanager, and

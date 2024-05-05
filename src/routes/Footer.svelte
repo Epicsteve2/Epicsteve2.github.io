@@ -5,14 +5,11 @@
 	import FileTextLogo from 'virtual:icons/bi/file-earmark-text-fill';
 </script>
 
-<!-- color palette #857FA2, #FAF5DF, #DEAE9C, #EDD2A5, #597493 -->
-<!-- #DEAE9C, #A18BA2, #EDD2A5, #597493, #563A57 -->
-<!-- bg-white  -->
-<footer class="flex flex-col items-center py-6 bg-[#563A57]">
-	<h2 class="text-white text-4xl pb-1">Contact me!</h2>
+<footer class="flex flex-col items-center py-6 bg-gray-600">
+	<h2 class="text-white text-4xl pb-2">Contact me!</h2>
 	<div class="flex flex-row">
 		<a
-			class="text-lg flex items-center px-3 text-[#A18BA2] hover:text-[#563A57]"
+			class="text-lg flex items-center px-3 text-white hover:text-blue-300"
 			href="https://github.com/Epicsteve2"
 			target="_blank"
 		>
@@ -21,7 +18,7 @@
 			GitHub
 		</a>
 		<a
-			class="text-lg flex items-center px-3 text-[#A18BA2] hover:text-[#563A57]"
+			class="text-lg flex items-center px-3 text-white hover:text-blue-300"
 			href="https://www.linkedin.com/in/stephen-guo-399959192/"
 			target="_blank"
 		>
@@ -29,15 +26,15 @@
 			LinkedIn
 		</a>
 		<a
-			class="text-lg flex items-center px-3 text-[#A18BA2] hover:text-[#563A57]"
-			href="mailto:steve.guo@mail.utoronto.ca"
+			class="text-lg flex items-center px-3 text-white hover:text-blue-300"
+			href="mailto:stephenguo14@gmail.com"
 			target="_blank"
 		>
 			<EnvelopeLogo class="pr-1" />
 			Email
 		</a>
 		<a
-			class="text-lg flex items-center px-3 text-[#A18BA2] hover:text-[#563A57]"
+			class="text-lg flex items-center px-3 text-white hover:text-blue-300"
 			href="https://github.com/Epicsteve2/LaTeX-Files/raw/main/pdf/StephenGuo_Resume.pdf"
 			target="_blank"
 		>
