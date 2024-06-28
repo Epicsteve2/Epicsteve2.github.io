@@ -13,7 +13,13 @@
 			<p class="">I'm currently learning about:</p>
 			<ul class="list-disc list-inside indent-2 pb-2">
 				<li>Rust</li>
-				<li>Neovim</li>
+				<li>
+					Neovim (I use <a
+						href="https://www.lazyvim.org/"
+						class="text-blue-600 hover:text-blue-800"
+						target="_blank">LazyVim</a
+					>)
+				</li>
 				<li>Linux (I use Fedora and OpenSUSE right now, but I want to try NixOS at some point)</li>
 				<li>
 					Front end technologies such as SvelteKit (Which this site is built in!), Vue.js, and

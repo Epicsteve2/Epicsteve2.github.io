@@ -1,0 +1,1 @@
+import{c as n,s as a,a as s,f as l}from"../chunks/disclose-version.ClOYDJtN.js";const c=!0,u=!1,i=Object.freeze(Object.defineProperty({__proto__:null,csr:u,prerender:c},Symbol.toStringTag,{value:"Module"}));function p(o,t){var e=n(),r=l(e);a(r,t.children,{},null),s(o,e)}export{p as component,i as universal};
