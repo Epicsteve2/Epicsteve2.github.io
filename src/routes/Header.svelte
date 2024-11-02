@@ -53,7 +53,7 @@ drop-shadow(-${shadowLength}px -${shadowLength}px 0 white)`;
 		<h1 class="text-black text-3xl md:text-4xl lg:text-5xl pb-2">Stephen Guo</h1>
 		<p class="text-black text-base md:text-lg lg:text-xl">University of Toronto 2019 - 2024</p>
 		<p class="text-black text-base md:text-lg lg:text-xl">
-			Computer Science - Software Engineering stream
+			Backend Software Developer at Leap Softwares
 		</p>
 	</div>
 </div>

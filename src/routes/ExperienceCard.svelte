@@ -5,6 +5,7 @@
 	export let location: string;
 	export let jobTitle: string;
 	export let image: string;
+	export let altImage: string;
 </script>
 
 <!-- md:container -->
@@ -13,7 +14,7 @@
 		<!-- class="h-96 w-full md:h-full md:w-96 object-cover md:mr-5" -->
 		<img
 			src={image}
-			alt="BlueCat Networks Logo"
+			alt={altImage}
 			class="object-cover lg:w-full lg:h-auto md:pr-5 sm:max-lg:w-1/2 max-sm:pb-3"
 		/>
 	</div>

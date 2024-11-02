@@ -7,8 +7,8 @@
 		<div class="lg:mr-5 max-lg:mb-3">
 			<h1 class="text-3xl">About Me</h1>
 			<p class="pb-4">
-				I received a degree in Computer Science at the University of Toronto, and I have a previous
-				1-year co-op at BlueCat Networks as a software engineer.
+				I'm currently working at Leap Softwares as a Backend Software Developer, and I received a
+				degree in Computer Science at the University of Toronto.
 			</p>
 			<p class="">I'm currently learning about:</p>
 			<ul class="list-disc list-inside indent-2 pb-2">
