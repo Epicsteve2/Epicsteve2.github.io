@@ -40,7 +40,7 @@
 							]}
 							dateRange="October 2024 - Present"
 							location="Toronto, ON"
-							jobTitle="Backend Software Developer"
+							jobTitle="Full Stack Software Engineer"
 							image={nestjsLogo}
 							altImage="NestJS Logo"
 						>

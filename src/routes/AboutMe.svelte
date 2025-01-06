@@ -7,7 +7,7 @@
 		<div class="lg:mr-5 max-lg:mb-3">
 			<h1 class="text-3xl">About Me</h1>
 			<p class="pb-4">
-				I'm currently working at Leap Softwares as a Backend Software Developer, and I received a
+				I'm currently working at Leap Softwares as a Full Stack Software Engineer, and I received a
 				degree in Computer Science at the University of Toronto.
 			</p>
 			<p class="">I'm currently learning about:</p>
