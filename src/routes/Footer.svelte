@@ -34,7 +34,7 @@
 		</a>
 		<a
 			class="text-lg flex items-center px-3 text-white hover:text-blue-300"
-			href="https://github.com/Epicsteve2/LaTeX-Files/raw/main/pdf/StephenGuo_Resume.pdf"
+			href="https://github.com/Epicsteve2/LaTeX-Files/raw/main/pdf/stephen-guo-resume.pdf"
 			target="_blank"
 		>
 			<FileTextLogo class="pr-1" />
