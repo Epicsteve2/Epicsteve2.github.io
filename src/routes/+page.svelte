@@ -45,7 +45,18 @@
 							altImage="NestJS Logo"
 						>
 							<div class="flex flex-col justify-between grow">
-								<p>Currently working on a PDF generator!</p>
+								<div>
+									<p>
+										I developed a dashboard + Excel/PDF report generators for insurance policies
+										with a team of 4. I designed API endpoints, CI/CD pipelines, and monitoring
+										infrastructure for alerts.
+									</p>
+									<br />
+									<p>
+										I also wrote a small Azure Function in Rust to interact with the Slack websocket
+										API for creating a Slack app to interact with our pipelines.
+									</p>
+								</div>
 							</div>
 						</ExperienceCard>
 						<ExperienceCard
@@ -58,6 +69,7 @@
 								'Java',
 								'Terraform',
 								'SQL',
+								'Rust',
 								'Docker',
 								'Helm',
 								'Jenkins',
