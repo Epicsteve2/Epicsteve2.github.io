@@ -35,6 +35,7 @@
 								'Microsoft Azure',
 								'Terraform',
 								'PostgreSQL',
+								'Rust',
 								'Retool',
 								'GraphQL'
 							]}
@@ -69,7 +70,6 @@
 								'Java',
 								'Terraform',
 								'SQL',
-								'Rust',
 								'Docker',
 								'Helm',
 								'Jenkins',

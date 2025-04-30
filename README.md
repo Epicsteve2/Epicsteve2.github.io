@@ -8,9 +8,9 @@ The background image and favicon is from _A Whisker Away_ (2020)
 
 ```bash
 # install packages for the first time
-npm install
+pnpm install
 
-npm run build
+pnpm build
 ```
 
-then commit the `docs/` folder to `master` to deploy to GitGub Pages.
+Then commit the `docs/` folder to `master` to deploy to GitGub Pages.
