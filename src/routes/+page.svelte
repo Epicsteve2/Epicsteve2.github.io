@@ -5,7 +5,7 @@
 	import AboutMe from './AboutMe.svelte';
 	import ExperienceCard from './ExperienceCard.svelte';
 
-	import nestjsLogo from '$lib/images/nestjs.svg';
+	import leapSoftwaresLogo from '$lib/images/leap-softwares-logo.png';
 	import bluecatLogo from '$lib/images/bluecat-networks-logo.png';
 
 	import GlobeLogo from 'virtual:icons/bi/globe-americas';
@@ -42,7 +42,7 @@
 							dateRange="October 2024 - Present"
 							location="Toronto, ON"
 							jobTitle="Full Stack Software Engineer"
-							image={nestjsLogo}
+							image={leapSoftwaresLogo}
 							altImage="NestJS Logo"
 						>
 							<div class="flex flex-col justify-between grow">
