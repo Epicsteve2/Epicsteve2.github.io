@@ -1,5 +1,5 @@
 <script lang="ts">
-	import profileMontRoyal from '$lib/images/profile-picture-mont-royal.jpg';
+	import profileAdo from '$lib/images/2025-08-03-stephen-ado-concert.jpg';
 </script>
 
 <div class="bg-white m-3 md:m-6 p-4 md:p-3 rounded-3xl">
@@ -7,8 +7,8 @@
 		<div class="lg:mr-5 max-lg:mb-3">
 			<h1 class="text-3xl">About Me</h1>
 			<p class="pb-4">
-				I'm currently working at Leap Softwares as a Full Stack Software Engineer, and I received a
-				degree in Computer Science at the University of Toronto.
+				I'm currently working at Leap Softwares as a Software Engineer, and I received a degree in
+				Computer Science at the University of Toronto.
 			</p>
 			<p class="">I'm currently learning about:</p>
 			<ul class="list-disc list-inside indent-2 pb-2">
@@ -20,7 +20,7 @@
 						target="_blank">LazyVim</a
 					>)
 				</li>
-				<li>Linux (I use Fedora and OpenSUSE right now, but I want to try NixOS at some point)</li>
+				<li>Linux (I use NixOS and Fedora KDE)</li>
 				<li>
 					Front end technologies such as SvelteKit (Which this site is built in!), Vue.js, and
 					Tailwind CSS
@@ -33,8 +33,8 @@
 		</div>
 		<div class="w-full md:w-1/2 flex justify-center mx-auto">
 			<img
-				src={profileMontRoyal}
-				alt="Stephen Guo at Mont Royal"
+				src={profileAdo}
+				alt="Stephen Guo at Ado's Hibana concert in Toronto"
 				class="object-cover lg:w-full lg:h-auto"
 			/>
 		</div>

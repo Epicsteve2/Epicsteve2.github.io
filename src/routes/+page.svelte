@@ -37,25 +37,27 @@
 								'PostgreSQL',
 								'Rust',
 								'Retool',
-								'GraphQL'
+								'GraphQL',
+								'Redis'
 							]}
 							dateRange="October 2024 - Present"
 							location="Toronto, ON"
-							jobTitle="Full Stack Software Engineer"
+							jobTitle="Software Engineer"
 							image={leapSoftwaresLogo}
 							altImage="NestJS Logo"
 						>
 							<div class="flex flex-col justify-between grow">
 								<div>
-									<p>
-										I developed a dashboard + Excel/PDF report generators for insurance policies
-										with a team of 4. I designed API endpoints, CI/CD pipelines, and monitoring
-										infrastructure for alerts.
+									<p class="mb-5">
+										I developed a financial services management system + Excel/PDF report generators
+										for insurance policies with a team of 6. I designed API endpoints, CI/CD
+										pipelines, and monitoring infrastructure for alerts. Also, I worked on a lot of
+										SQL scripting and optimization
 									</p>
-									<br />
 									<p>
-										I also wrote a small Azure Function in Rust to interact with the Slack websocket
-										API for creating a Slack app to interact with our pipelines.
+										For the monitoring infrastructure, I wrote a small Azure Function in Rust to
+										interact with the Slack websocket API for creating a Slack app to interact with
+										our pipelines.
 									</p>
 								</div>
 							</div>
@@ -82,12 +84,16 @@
 							altImage="BlueCat Networks Logo"
 						>
 							<div class="flex flex-col justify-between grow">
+								<p class="mb-5">
+									I worked with a team of 7 software engineers in a Kanban DevOps environment to
+									build and maintain a data platform handling 100 million+ of users.
+								</p>
 								<p>
-									I worked with a team of 7 software engineers in a Kanban DevOps environment. I
-									first started working on a monolithic Java codebase for the first 3 months, which
-									was deployed using a Jenkins pipeline. For the rest of my co-op, I started to work
-									on a microservice-oriented data platform with a Python codebase using Trino SQL
-									and Apache Airflow, which was deployed using AWS, Kubernetes, and Terraform.
+									I first started working on a monolithic Java codebase for the first 3 months,
+									which was deployed using a Jenkins pipeline. For the rest of my co-op, I started
+									to work on a microservice-oriented data platform with a Python codebase using
+									Trino SQL and Apache Airflow, which was deployed using AWS, Kubernetes, and
+									Terraform.
 								</p>
 								<a
 									class="text-lg flex items-center text-blue-600 hover:text-blue-800 mt-2"
