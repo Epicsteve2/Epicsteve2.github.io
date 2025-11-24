@@ -7,9 +7,9 @@
 
 	import leapSoftwaresLogo from '$lib/images/leap-softwares-logo.png';
 	import bluecatLogo from '$lib/images/bluecat-networks-logo.png';
+	import ridgesLogo from '$lib/images/ridges-logo.png';
 
 	import GlobeLogo from 'virtual:icons/bi/globe-americas';
-	// import GithubLogo from 'virtual:icons/bi/github';
 </script>
 
 <svelte:head>
@@ -28,6 +28,27 @@
 					</div>
 					<div class="mb-5">
 						<ExperienceCard
+							companyName="Ridges"
+							tags={['Python', 'AWS']}
+							dateRange="October 2025 - Present"
+							location="Toronto, ON"
+							jobTitle="Backend Engineer"
+							image={ridgesLogo}
+							altImage="Ridges Logo"
+						>
+							<div class="flex flex-col justify-between grow">
+								<div>Building software agents on Bittensor</div>
+								<a
+									class="text-lg flex items-center text-blue-600 hover:text-blue-800 mt-2"
+									href="https://www.ridges.ai/"
+									target="_blank"
+								>
+									<GlobeLogo class="pr-1" />
+									Link to website
+								</a>
+							</div>
+						</ExperienceCard>
+						<ExperienceCard
 							companyName="Leap Softwares"
 							tags={[
 								'NestJS',
@@ -40,7 +61,7 @@
 								'GraphQL',
 								'Redis'
 							]}
-							dateRange="October 2024 - Present"
+							dateRange="October 2024 - October 2025"
 							location="Toronto, ON"
 							jobTitle="Software Engineer"
 							image={leapSoftwaresLogo}

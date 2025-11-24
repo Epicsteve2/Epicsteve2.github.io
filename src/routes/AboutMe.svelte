@@ -7,8 +7,8 @@
 		<div class="lg:mr-5 max-lg:mb-3">
 			<h1 class="text-3xl">About Me</h1>
 			<p class="pb-4">
-				I'm currently working at Leap Softwares as a Software Engineer, and I received a degree in
-				Computer Science at the University of Toronto.
+				I'm currently working at Ridges as a Software Engineer, and I received a degree in Computer
+				Science at the University of Toronto.
 			</p>
 			<p class="">I'm currently learning about:</p>
 			<ul class="list-disc list-inside indent-2 pb-2">

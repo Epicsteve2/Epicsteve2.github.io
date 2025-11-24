@@ -29,7 +29,7 @@
 		</div>
 
 		<ul class="flex flex-wrap mt-1">
-			{#each tags as tag}
+			{#each tags as tag (tag)}
 				<li class="mr-2 mb-2 bg-indigo-200 px-2 py-1 rounded-lg">{tag}</li>
 			{/each}
 		</ul>
