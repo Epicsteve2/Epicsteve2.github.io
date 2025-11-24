@@ -29,7 +29,7 @@
 					<div class="mb-5">
 						<ExperienceCard
 							companyName="Ridges"
-							tags={['Python', 'AWS']}
+							tags={['Python', 'AWS', 'PostgreSQL', 'Next.js', 'Docker']}
 							dateRange="October 2025 - Present"
 							location="Toronto, ON"
 							jobTitle="Backend Engineer"
@@ -37,7 +37,10 @@
 							altImage="Ridges Logo"
 						>
 							<div class="flex flex-col justify-between grow">
-								<div>Building software agents on Bittensor</div>
+								<div>
+									<p class="mb-5">Building software agents on Bittensor</p>
+									<!-- <p>Used FastAPI</p> -->
+								</div>
 								<a
 									class="text-lg flex items-center text-blue-600 hover:text-blue-800 mt-2"
 									href="https://www.ridges.ai/"
