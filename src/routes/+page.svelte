@@ -30,7 +30,7 @@
 						<ExperienceCard
 							companyName="Ridges"
 							tags={['Python', 'AWS', 'PostgreSQL', 'Next.js', 'Docker']}
-							dateRange="October 2025 - Present"
+							dateRange="September 2025 - Present"
 							location="Toronto, ON"
 							jobTitle="Backend Engineer"
 							image={ridgesLogo}
@@ -64,7 +64,7 @@
 								'GraphQL',
 								'Redis'
 							]}
-							dateRange="October 2024 - October 2025"
+							dateRange="October 2024 - September 2025"
 							location="Toronto, ON"
 							jobTitle="Software Engineer"
 							image={leapSoftwaresLogo}
