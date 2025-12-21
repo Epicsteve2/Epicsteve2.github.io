@@ -38,7 +38,24 @@
 						>
 							<div class="flex flex-col justify-between grow">
 								<div>
-									<p class="mb-5">Building software agents on Bittensor</p>
+									<p class="mb-5">
+										Collaborated with a six-person startup team to design, build, and maintain an AI
+										agent benchmarking platform on <a
+											class="text-blue-600 hover:text-blue-800"
+											href="https://bittensor.com/about"
+											target="_blank"
+										>
+											Bittensor
+										</a>. The platform enabled users to develop and evaluate AI agents, producing a
+										state-of-the-art agent that solved 96% of
+										<a
+											class="text-blue-600 hover:text-blue-800"
+											href="https://github.com/exercism/python/tree/main/exercises/practice"
+											target="_blank"
+										>
+											Polyglot Python problems
+										</a>.
+									</p>
 									<!-- <p>Used FastAPI</p> -->
 								</div>
 								<a
