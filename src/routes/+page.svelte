@@ -8,6 +8,7 @@
 	import leapSoftwaresLogo from '$lib/images/leap-softwares-logo.png';
 	import bluecatLogo from '$lib/images/bluecat-networks-logo.png';
 	import ridgesLogo from '$lib/images/ridges-logo.png';
+	import strelloLogo from '$lib/images/strello-health-logo.jpg';
 
 	import GlobeLogo from 'virtual:icons/bi/globe-americas';
 </script>
@@ -28,11 +29,35 @@
 					</div>
 					<div class="mb-5">
 						<ExperienceCard
+							companyName="Strello Health"
+							tags={['TypeScript', 'Azure']}
+							dateRange="January 2026 - Present"
+							location="Toronto, ON"
+							jobTitle="Founding Engineer"
+							image={strelloLogo}
+							altImage="Ridges Logo"
+						>
+							<div class="flex flex-col justify-between grow">
+								<div>
+									<p class="mb-5">Building and deploying AI voice agents.</p>
+									<!-- <p>Used FastAPI</p> -->
+								</div>
+								<a
+									class="text-lg flex items-center text-blue-600 hover:text-blue-800 mt-2"
+									href="https://strello.health/"
+									target="_blank"
+								>
+									<GlobeLogo class="pr-1" />
+									Link to website
+								</a>
+							</div>
+						</ExperienceCard>
+						<ExperienceCard
 							companyName="Ridges"
 							tags={['Python', 'AWS', 'PostgreSQL', 'Next.js', 'Docker']}
-							dateRange="September 2025 - Present"
+							dateRange="September 2025 - January 2026"
 							location="Toronto, ON"
-							jobTitle="Backend Engineer"
+							jobTitle="Backend Software Engineer"
 							image={ridgesLogo}
 							altImage="Ridges Logo"
 						>
