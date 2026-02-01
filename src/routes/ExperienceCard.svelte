@@ -10,7 +10,7 @@
 
 <!-- md:container -->
 <div class="lg:flex lg:mx-auto p-5 border-black border-2 max-w-screen-xl mb-8">
-	<!-- TODO: The image looks kind of too big on md -->
+	<!-- TODO: The image looks kind of too big on md. also for strello, the image isn't a square, so each row looks like it's a different size -->
 	<div class="aspect-square md:basis-1/4 flex justify-center">
 		<img src={image} alt={altImage} class="object-contain lg:w-full md:pr-5 max-sm:pb-3" />
 	</div>
