@@ -41,7 +41,7 @@ drop-shadow(-${shadowLength}px -${shadowLength}px 0 white)`;
 			r={circleWidth}
 			fill="url(#profile-photo)"
 			style:-webkit-filter={profilePicCircleStyle}
-			style:-filter={profilePicCircleStyle}
+			style:filter={profilePicCircleStyle}
 		></circle>
 		<rect x="0" y="0" width={viewboxWidth} height={viewboxWidth} mask="url(#mask)" fill="#fff"
 		></rect>
