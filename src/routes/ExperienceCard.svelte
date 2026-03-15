@@ -1,16 +1,8 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
+	import GlobeLogo from 'virtual:icons/bi/globe-americas';
 
-	let {
-		companyName,
-		tags,
-		dateRange,
-		location,
-		jobTitle,
-		image,
-		altImage,
-		children
-	}: {
+	interface Props {
 		companyName: string;
 		tags: string[];
 		dateRange: string;
@@ -18,8 +10,11 @@
 		jobTitle: string;
 		image: string;
 		altImage: string;
+		websiteUrl?: string;
 		children: Snippet;
-	} = $props();
+	}
+
+	let { companyName, tags, dateRange, location, jobTitle, image, altImage, websiteUrl, children }: Props = $props();
 </script>
 
 <!-- md:container -->
@@ -44,5 +39,15 @@
 			{/each}
 		</ul>
 		{@render children()}
+		{#if websiteUrl}
+			<a
+				class="link mt-2 flex items-center text-lg"
+				href={websiteUrl}
+				target="_blank"
+			>
+				<GlobeLogo class="pr-1" />
+				Link to website
+			</a>
+		{/if}
 	</div>
 </div>

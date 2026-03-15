@@ -7,8 +7,8 @@
 		<div class="max-lg:mb-3 lg:mr-5">
 			<h1 class="text-3xl">About Me</h1>
 			<p class="pb-4">
-				I'm currently working at Ridges as a Software Engineer, and I received a degree in Computer
-				Science at the University of Toronto.
+				I'm currently working at Strello Health as a Founding Engineer, and I received a degree
+				in Computer Science at the University of Toronto.
 			</p>
 			<p class="">I'm currently learning about:</p>
 			<ul class="list-inside list-disc pb-2 indent-2">
@@ -16,7 +16,7 @@
 				<li>
 					Neovim (I use <a
 						href="https://www.lazyvim.org/"
-						class="text-blue-600 hover:text-blue-800"
+						class="link"
 						target="_blank">LazyVim</a
 					>)
 				</li>

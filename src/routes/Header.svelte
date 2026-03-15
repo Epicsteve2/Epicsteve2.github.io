@@ -1,13 +1,15 @@
 <script lang="ts">
+	import profilePic from '$lib/images/profile-pic-tree-purple-hat-cropped-square.png';
+
 	const viewboxWidth = 50;
-	const circleWidth = 20;
+	const circleRadius = 20;
+	const center = viewboxWidth / 2;
 	const shadowLength = 0.5;
 
-	const profilePicCircleStyle = `drop-shadow(${shadowLength}px ${shadowLength}px 0 white)
+	const dropShadow = `drop-shadow(${shadowLength}px ${shadowLength}px 0 white)
 drop-shadow(-${shadowLength}px ${shadowLength}px 0 white)
 drop-shadow(${shadowLength}px -${shadowLength}px 0 white)
 drop-shadow(-${shadowLength}px -${shadowLength}px 0 white)`;
-	import profilePic from '$lib/images/profile-pic-tree-purple-hat-cropped-square.png';
 </script>
 
 <!-- to do responsiveness, target mobile using no sizes as default. then for bigger ones, do `md` or `lg` -->
@@ -20,28 +22,27 @@ drop-shadow(-${shadowLength}px -${shadowLength}px 0 white)`;
 	>
 		<defs>
 			<pattern id="profile-photo" width="1" height="1">
-				<image href={profilePic} x="0" y="0" width={circleWidth * 2} height={circleWidth * 2} />
+				<image
+					href={profilePic}
+					x="0"
+					y="0"
+					width={circleRadius * 2}
+					height={circleRadius * 2}
+				/>
 			</pattern>
 			<mask id="mask" x="0" y="0" width={viewboxWidth} height={viewboxWidth}>
 				<rect x="0" y="0" width={viewboxWidth} height={viewboxWidth} fill="#fff"></rect>
-				<circle cx={viewboxWidth / 2} cy={viewboxWidth / 2} r={circleWidth}></circle>
+				<circle cx={center} cy={center} r={circleRadius}></circle>
 			</mask>
 		</defs>
+		<circle cx={center} cy={center} r={circleRadius} fill="#000" fill-opacity="0.6"></circle>
 		<circle
-			cx={viewboxWidth / 2}
-			cy={viewboxWidth / 2}
-			r={circleWidth}
-			fill="#000"
-			fill-opacity="0.6"
-		></circle>
-		<circle
-			id="profile-picture-circle"
-			cx={viewboxWidth / 2}
-			cy={viewboxWidth / 2}
-			r={circleWidth}
+			cx={center}
+			cy={center}
+			r={circleRadius}
 			fill="url(#profile-photo)"
-			style:-webkit-filter={profilePicCircleStyle}
-			style:filter={profilePicCircleStyle}
+			style:-webkit-filter={dropShadow}
+			style:filter={dropShadow}
 		></circle>
 		<rect x="0" y="0" width={viewboxWidth} height={viewboxWidth} mask="url(#mask)" fill="#fff"
 		></rect>
@@ -52,6 +53,6 @@ drop-shadow(-${shadowLength}px -${shadowLength}px 0 white)`;
 	>
 		<h1 class="pb-2 text-3xl text-black md:text-4xl lg:text-5xl">Stephen Guo</h1>
 		<p class="text-base text-black md:text-lg lg:text-xl">University of Toronto 2019 - 2024</p>
-		<p class="text-base text-black md:text-lg lg:text-xl">Software Engineer at Ridges</p>
+		<p class="text-base text-black md:text-lg lg:text-xl">Founding Engineer at Strello Health</p>
 	</div>
 </div>
