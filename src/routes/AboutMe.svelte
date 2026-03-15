@@ -2,16 +2,16 @@
 	import profileAdo from '$lib/images/2025-08-03-stephen-ado-concert.jpg';
 </script>
 
-<div class="bg-white m-3 md:m-6 p-4 md:p-3 rounded-3xl">
-	<div class="max-w-5xl mx-auto lg:flex p-3">
-		<div class="lg:mr-5 max-lg:mb-3">
+<div class="m-3 rounded-3xl bg-white p-4 md:m-6 md:p-3">
+	<div class="mx-auto max-w-5xl p-3 lg:flex">
+		<div class="max-lg:mb-3 lg:mr-5">
 			<h1 class="text-3xl">About Me</h1>
 			<p class="pb-4">
 				I'm currently working at Ridges as a Software Engineer, and I received a degree in Computer
 				Science at the University of Toronto.
 			</p>
 			<p class="">I'm currently learning about:</p>
-			<ul class="list-disc list-inside indent-2 pb-2">
+			<ul class="list-inside list-disc pb-2 indent-2">
 				<li>Rust</li>
 				<li>
 					Neovim (I use <a
@@ -31,11 +31,11 @@
 				badminton, basketball, and going to the gym.
 			</p>
 		</div>
-		<div class="w-full md:w-1/2 flex justify-center mx-auto">
+		<div class="mx-auto flex w-full justify-center md:w-1/2">
 			<img
 				src={profileAdo}
 				alt="Stephen Guo at Ado's Hibana concert in Toronto"
-				class="object-cover lg:w-full lg:h-auto"
+				class="object-cover lg:h-auto lg:w-full"
 			/>
 		</div>
 	</div>

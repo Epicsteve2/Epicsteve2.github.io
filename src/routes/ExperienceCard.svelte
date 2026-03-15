@@ -1,20 +1,34 @@
 <script lang="ts">
-	export let companyName: string;
-	export let tags: string[];
-	export let dateRange: string;
-	export let location: string;
-	export let jobTitle: string;
-	export let image: string;
-	export let altImage: string;
+	import type { Snippet } from 'svelte';
+
+	let {
+		companyName,
+		tags,
+		dateRange,
+		location,
+		jobTitle,
+		image,
+		altImage,
+		children
+	}: {
+		companyName: string;
+		tags: string[];
+		dateRange: string;
+		location: string;
+		jobTitle: string;
+		image: string;
+		altImage: string;
+		children: Snippet;
+	} = $props();
 </script>
 
 <!-- md:container -->
-<div class="lg:flex lg:mx-auto p-5 border-black border-2 max-w-(--breakpoint-xl) mb-8">
+<div class="mb-8 max-w-(--breakpoint-xl) border-2 border-black p-5 lg:mx-auto lg:flex">
 	<!-- TODO: The image looks kind of too big on md. also for strello, the image isn't a square, so each row looks like it's a different size -->
-	<div class="aspect-square md:basis-1/4 flex justify-center">
-		<img src={image} alt={altImage} class="object-contain lg:w-full md:pr-5 max-sm:pb-3" />
+	<div class="flex aspect-square justify-center md:basis-1/4">
+		<img src={image} alt={altImage} class="object-contain max-sm:pb-3 md:pr-5 lg:w-full" />
 	</div>
-	<div class="lg:basis-3/4 flex flex-col">
+	<div class="flex flex-col lg:basis-3/4">
 		<div class="flex justify-between">
 			<h1 class="text-2xl">{companyName}</h1>
 			<h2 class="text-2xl">{location}</h2>
@@ -24,11 +38,11 @@
 			<h2>{dateRange}</h2>
 		</div>
 
-		<ul class="flex flex-wrap mt-1">
+		<ul class="mt-1 flex flex-wrap">
 			{#each tags as tag (tag)}
-				<li class="mr-2 mb-2 bg-indigo-200 px-2 py-1 rounded-lg">{tag}</li>
+				<li class="mr-2 mb-2 rounded-lg bg-indigo-200 px-2 py-1">{tag}</li>
 			{/each}
 		</ul>
-		<slot />
+		{@render children()}
 	</div>
 </div>

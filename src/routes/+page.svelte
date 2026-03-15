@@ -16,16 +16,16 @@
 <svelte:head>
 	<title>Stephen Guo</title>
 </svelte:head>
-<div class="flex flex-col h-screen">
+<div class="flex h-screen flex-col">
 	<div class="mb-auto">
 		<main>
 			<Header />
 			<AboutMe />
-			<div class="bg-white flex flex-col justify-center w-full">
-				<div class="md:mx-16 max-md:mx-3 md:my-10 max-md:my-3">
-					<div class="mx-auto max-w-(--breakpoint-xl) flex flex-col">
+			<div class="flex w-full flex-col justify-center bg-white">
+				<div class="max-md:mx-3 max-md:my-3 md:mx-16 md:my-10">
+					<div class="mx-auto flex max-w-(--breakpoint-xl) flex-col">
 						<h1 class="text-4xl">Experience</h1>
-						<hr class="md:mb-5 mb-3 bg-black h-0.5" />
+						<hr class="mb-3 h-0.5 bg-black md:mb-5" />
 					</div>
 					<div class="mb-5">
 						<ExperienceCard
@@ -37,13 +37,13 @@
 							image={strelloLogo}
 							altImage="Ridges Logo"
 						>
-							<div class="flex flex-col justify-between grow">
+							<div class="flex grow flex-col justify-between">
 								<div>
 									<p class="mb-5">Building and deploying AI voice agents.</p>
 									<!-- <p>Used FastAPI</p> -->
 								</div>
 								<a
-									class="text-lg flex items-center text-blue-600 hover:text-blue-800 mt-2"
+									class="mt-2 flex items-center text-lg text-blue-600 hover:text-blue-800"
 									href="https://strello.health/"
 									target="_blank"
 								>
@@ -61,7 +61,7 @@
 							image={ridgesLogo}
 							altImage="Ridges Logo"
 						>
-							<div class="flex flex-col justify-between grow">
+							<div class="flex grow flex-col justify-between">
 								<div>
 									<p class="mb-5">
 										Collaborated with a six-person startup team to design, build, and maintain an AI
@@ -84,7 +84,7 @@
 									<!-- <p>Used FastAPI</p> -->
 								</div>
 								<a
-									class="text-lg flex items-center text-blue-600 hover:text-blue-800 mt-2"
+									class="mt-2 flex items-center text-lg text-blue-600 hover:text-blue-800"
 									href="https://www.ridges.ai/"
 									target="_blank"
 								>
@@ -112,7 +112,7 @@
 							image={leapSoftwaresLogo}
 							altImage="NestJS Logo"
 						>
-							<div class="flex flex-col justify-between grow">
+							<div class="flex grow flex-col justify-between">
 								<div>
 									<p class="mb-5">
 										I developed a financial services management system + Excel/PDF report generators
@@ -149,7 +149,7 @@
 							image={bluecatLogo}
 							altImage="BlueCat Networks Logo"
 						>
-							<div class="flex flex-col justify-between grow">
+							<div class="flex grow flex-col justify-between">
 								<p class="mb-5">
 									I worked with a team of 7 software engineers in a Kanban DevOps environment to
 									build and maintain a data platform handling 100 million+ of users.
@@ -162,7 +162,7 @@
 									Terraform.
 								</p>
 								<a
-									class="text-lg flex items-center text-blue-600 hover:text-blue-800 mt-2"
+									class="mt-2 flex items-center text-lg text-blue-600 hover:text-blue-800"
 									href="https://bluecatnetworks.com/"
 									target="_blank"
 								>

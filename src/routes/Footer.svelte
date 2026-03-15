@@ -5,11 +5,11 @@
 	import FileTextLogo from 'virtual:icons/bi/file-earmark-text-fill';
 </script>
 
-<footer class="flex flex-col items-center py-6 bg-gray-600">
-	<h2 class="text-white text-4xl pb-2 text-center">Contact me!</h2>
-	<div class="flex flex-row max-w-full flex-wrap justify-center mx-2">
+<footer class="flex flex-col items-center bg-gray-600 py-6">
+	<h2 class="pb-2 text-center text-4xl text-white">Contact me!</h2>
+	<div class="mx-2 flex max-w-full flex-row flex-wrap justify-center">
 		<a
-			class="text-lg flex items-center px-3 text-white hover:text-blue-300"
+			class="flex items-center px-3 text-lg text-white hover:text-blue-300"
 			href="https://github.com/Epicsteve2"
 			target="_blank"
 		>
@@ -17,7 +17,7 @@
 			GitHub
 		</a>
 		<a
-			class="text-lg flex items-center px-3 text-white hover:text-blue-300"
+			class="flex items-center px-3 text-lg text-white hover:text-blue-300"
 			href="https://www.linkedin.com/in/stephen-guo-399959192/"
 			target="_blank"
 		>
@@ -25,7 +25,7 @@
 			LinkedIn
 		</a>
 		<a
-			class="text-lg flex items-center px-3 text-white hover:text-blue-300"
+			class="flex items-center px-3 text-lg text-white hover:text-blue-300"
 			href="mailto:stephenguo14@gmail.com"
 			target="_blank"
 		>
@@ -33,7 +33,7 @@
 			Email
 		</a>
 		<a
-			class="text-lg flex items-center px-3 text-white hover:text-blue-300"
+			class="flex items-center px-3 text-lg text-white hover:text-blue-300"
 			href="https://github.com/Epicsteve2/LaTeX-Files/raw/main/pdf/stephen-guo-resume.pdf"
 			target="_blank"
 		>

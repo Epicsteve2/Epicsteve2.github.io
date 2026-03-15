@@ -12,11 +12,11 @@ drop-shadow(-${shadowLength}px -${shadowLength}px 0 white)`;
 
 <!-- to do responsiveness, target mobile using no sizes as default. then for bigger ones, do `md` or `lg` -->
 <div
-	class="bg-transparent py-5 sm:py-12 max-w-5xl mx-auto rounded-xl flex flex-col sm:flex-row px-5"
+	class="mx-auto flex max-w-5xl flex-col rounded-xl bg-transparent px-5 py-5 sm:flex-row sm:py-12"
 >
 	<svg
 		viewBox="0 0 {viewboxWidth} {viewboxWidth}"
-		class="max-sm:rounded-t-xl sm:rounded-l-3xl sm:max-w-72 lg:max-w-96"
+		class="max-sm:rounded-t-xl sm:max-w-72 sm:rounded-l-3xl lg:max-w-96"
 	>
 		<defs>
 			<pattern id="profile-photo" width="1" height="1">
@@ -48,10 +48,10 @@ drop-shadow(-${shadowLength}px -${shadowLength}px 0 white)`;
 	</svg>
 	<!-- border is to remove a black line sometimes -->
 	<div
-		class="bg-white max-sm:rounded-b-xl sm:rounded-r-3xl border-solid border-white border-2 flex flex-col justify-center max-sm:px-8 pr-8 pb-8 grow"
+		class="flex grow flex-col justify-center border-2 border-solid border-white bg-white pr-8 pb-8 max-sm:rounded-b-xl max-sm:px-8 sm:rounded-r-3xl"
 	>
-		<h1 class="text-black text-3xl md:text-4xl lg:text-5xl pb-2">Stephen Guo</h1>
-		<p class="text-black text-base md:text-lg lg:text-xl">University of Toronto 2019 - 2024</p>
-		<p class="text-black text-base md:text-lg lg:text-xl">Software Engineer at Ridges</p>
+		<h1 class="pb-2 text-3xl text-black md:text-4xl lg:text-5xl">Stephen Guo</h1>
+		<p class="text-base text-black md:text-lg lg:text-xl">University of Toronto 2019 - 2024</p>
+		<p class="text-base text-black md:text-lg lg:text-xl">Software Engineer at Ridges</p>
 	</div>
 </div>
