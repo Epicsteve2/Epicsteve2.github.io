@@ -41,7 +41,7 @@
 		{@render children()}
 		{#if websiteUrl}
 			<a
-				class="link mt-2 flex items-center text-lg"
+				class="link mt-auto flex items-center text-lg"
 				href={websiteUrl}
 				target="_blank"
 				rel="noopener noreferrer"
