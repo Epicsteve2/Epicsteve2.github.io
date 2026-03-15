@@ -54,6 +54,7 @@
 									class="link"
 									href="https://bittensor.com/about"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
 									Bittensor
 								</a>. The platform enabled users to develop and evaluate AI agents, producing a
@@ -62,6 +63,7 @@
 									class="link"
 									href="https://github.com/exercism/python/tree/main/exercises/practice"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
 									Polyglot Python problems
 								</a>.

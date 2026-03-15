@@ -44,6 +44,7 @@
 				class="link mt-2 flex items-center text-lg"
 				href={websiteUrl}
 				target="_blank"
+				rel="noopener noreferrer"
 			>
 				<GlobeLogo class="pr-1" />
 				Link to website

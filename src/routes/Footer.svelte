@@ -8,21 +8,22 @@
 <footer class="flex flex-col items-center bg-gray-600 py-6">
 	<h2 class="pb-2 text-center text-4xl text-white">Contact me!</h2>
 	<div class="mx-2 flex max-w-full flex-row flex-wrap justify-center">
-		<a href="https://github.com/Epicsteve2" target="_blank">
+		<a href="https://github.com/Epicsteve2" target="_blank" rel="noopener noreferrer">
 			<GithubLogo class="pr-1" />
 			GitHub
 		</a>
-		<a href="https://www.linkedin.com/in/stephen-guo-399959192/" target="_blank">
+		<a href="https://www.linkedin.com/in/stephen-guo-399959192/" target="_blank" rel="noopener noreferrer">
 			<LinkedInLogo class="pr-1" />
 			LinkedIn
 		</a>
-		<a href="mailto:stephenguo14@gmail.com" target="_blank">
+		<a href="mailto:stephenguo14@gmail.com" target="_blank" rel="noopener noreferrer">
 			<EnvelopeLogo class="pr-1" />
 			Email
 		</a>
 		<a
 			href="https://github.com/Epicsteve2/LaTeX-Files/raw/main/pdf/stephen-guo-resume.pdf"
 			target="_blank"
+			rel="noopener noreferrer"
 		>
 			<FileTextLogo class="pr-1" />
 			Resume

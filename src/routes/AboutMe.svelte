@@ -17,7 +17,8 @@
 					Neovim (I use <a
 						href="https://www.lazyvim.org/"
 						class="link"
-						target="_blank">LazyVim</a
+						target="_blank"
+					rel="noopener noreferrer">LazyVim</a
 					>)
 				</li>
 				<li>Linux (I use NixOS and Fedora KDE)</li>
