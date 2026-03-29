@@ -5,12 +5,12 @@
 <div class="m-3 rounded-3xl bg-white p-4 md:m-6 md:p-3">
 	<div class="mx-auto max-w-5xl p-3 lg:flex">
 		<div class="max-lg:mb-3 lg:mr-5">
-			<h1 class="text-3xl">About Me</h1>
+			<h2 class="text-3xl">About Me</h2>
 			<p class="pb-4">
 				I'm currently working at Strello Health as a Founding Engineer, and I received a degree
 				in Computer Science at the University of Toronto.
 			</p>
-			<p class="">I'm currently learning about:</p>
+			<p>I'm currently learning about:</p>
 			<ul class="list-inside list-disc pb-2 indent-2">
 				<li>Rust</li>
 				<li>

@@ -17,20 +17,18 @@
 	let { companyName, tags, dateRange, location, jobTitle, image, altImage, websiteUrl, children }: Props = $props();
 </script>
 
-<!-- md:container -->
 <div class="mb-8 max-w-(--breakpoint-xl) border-2 border-black p-5 lg:mx-auto lg:flex">
-	<!-- TODO: The image looks kind of too big on md. also for strello, the image isn't a square, so each row looks like it's a different size -->
 	<div class="flex aspect-square justify-center md:basis-1/4">
 		<img src={image} alt={altImage} class="object-contain max-sm:pb-3 md:pr-5 lg:w-full" />
 	</div>
 	<div class="flex flex-col lg:basis-3/4">
 		<div class="flex justify-between">
-			<h1 class="text-2xl">{companyName}</h1>
-			<h2 class="text-2xl">{location}</h2>
+			<h3 class="text-2xl">{companyName}</h3>
+			<p class="text-2xl">{location}</p>
 		</div>
 		<div class="flex justify-between">
-			<h2>{jobTitle}</h2>
-			<h2>{dateRange}</h2>
+			<p>{jobTitle}</p>
+			<p>{dateRange}</p>
 		</div>
 
 		<ul class="mt-1 flex flex-wrap">
